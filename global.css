@@ -3,6 +3,10 @@ body {
   line-height: normal;
   width: 100vw;
   height: 100vh;
+
+  font-size: var(--font-size-5xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-josefin-sans);
 }
 
 :root {

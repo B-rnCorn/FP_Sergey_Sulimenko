@@ -1,0 +1,229 @@
+.landing-page-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 100px;
+}
+.jessie {
+  position: absolute;
+  top: 38px;
+  left: 80px;
+}
+.blog,
+.portfolio {
+  position: absolute;
+  top: 0;
+}
+.portfolio {
+  left: 0;
+  color: var(--color-lightseagreen);
+}
+.blog {
+  left: 115px;
+}
+.client-reviews,
+.contact-me {
+  position: absolute;
+  top: 0;
+  left: 194px;
+}
+.contact-me {
+  left: 352px;
+}
+.portfolio-parent {
+  position: absolute;
+  top: 41px;
+  left: 20%;
+  width: 451px;
+  height: 18px;
+  font-size: var(--font-size-lg);
+}
+.schedule-a-call {
+  position: relative;
+}
+.schedule-a-call-wrapper {
+  position: absolute;
+  top: 25px;
+  left: 60%;
+  border-radius: 3px;
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px;
+  font-size: var(--font-size-lg);
+  color: #000;
+}
+.group-child,
+.group-item {
+  position: absolute;
+  top: 0;
+  height: 882px;
+}
+.group-child {
+  left: 220px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.group-item {
+  left: 1511px;
+  background-color: var(--color-gray-100);
+  width: 221px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 100px;
+  left: -220px;
+  width: 100%;
+  height: 100%;
+}
+.amet-minim-mollit,
+.hello-there-nice {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.04em;
+}
+.hello-there-nice {
+  top: 0;
+  font-weight: 500;
+}
+.amet-minim-mollit {
+  top: 149px;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-gray-200);
+  display: inline-block;
+  width: 550px;
+}
+.jessie1 {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  font-size: 100px;
+  letter-spacing: 0.06em;
+  font-weight: 800;
+  font-family: var(--font-montserrat);
+  color: var(--color-lightseagreen);
+}
+.hello-there-nice-to-meet-you-parent {
+  position: absolute;
+  top: 251px;
+  left: 50%;
+  width: 550px;
+  height: 269px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+}
+.lets-take-your {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  line-height: 40px;
+  font-weight: 800;
+  display: inline-block;
+  width: 350px;
+}
+.group-inner {
+  position: absolute;
+  top: 20.5px;
+  left: -1.5px;
+  border-top: 3px solid var(--color-lightseagreen);
+  box-sizing: border-box;
+  width: 23px;
+  height: 3px;
+}
+.lets-take-your-photographs-to-parent {
+  position: absolute;
+  top: 862px;
+  left: 80px;
+  width: 380px;
+  height: 80px;
+  font-family: var(--font-montserrat);
+}
+.latest-shots,
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangle-icon {
+  top: 44px;
+  border-radius: var(--br-8xs);
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+.group-icon {
+  position: absolute;
+  top: 214px;
+  left: 0;
+  width: 86px;
+  height: 28px;
+}
+.group-child1,
+.group-child2 {
+  position: absolute;
+  top: 44px;
+  left: 270px;
+  border-radius: var(--br-8xs);
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+.group-child2 {
+  left: 540px;
+}
+.view-all {
+  position: absolute;
+  top: 4px;
+  left: 604px;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-lightseagreen);
+}
+.latest-shots-parent {
+  position: absolute;
+  top: 700px;
+  left: 40%;
+  width: 790px;
+  height: 242px;
+  color: #fff;
+}
+.landing-page-item {
+  position: absolute;
+  top: 506px;
+  left: 68px;
+  border-radius: 50%;
+  background-color: var(--color-gray-200);
+  width: 20px;
+  height: 20px;
+}
+.pro-photographer {
+  position: absolute;
+  top: 511px;
+  left: 80px;
+  letter-spacing: 0.04em;
+  line-height: 30px;
+  font-weight: 800;
+  font-family: var(--font-montserrat);
+  color: var(--color-lightseagreen);
+  display: inline-block;
+  width: 200px;
+}
+.landing-page {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-josefin-sans);
+}

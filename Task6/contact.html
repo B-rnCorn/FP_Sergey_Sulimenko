@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <script src="contact.js"></script>
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
+  <body>
+    <main>
+      <form name="formComment" onsubmit="valid(); return false">
+        <div class="comment">
+          <h2 class="comment__head">Your comment</h2>
+          <label for="name">Name <span>*</span></label>
+          <input class="comment__item" type="text" id="name" name="firstName" />
+          <label for="surname">Surname <span>*</span></label>
+          <input
+            class="comment__item"
+            type="text"
+            id="surname"
+            name="surname"
+          />
+          <label for="email">Email <span>*</span></label>
+          <input
+            class="comment__item"
+            type="text"
+            id="email"
+            name="email"
+            placeholder="example@me.ru"
+          />
+          <label for="number">Phone Number</label>
+          <input
+            class="comment__item"
+            type="text"
+            id="number"
+            name="phone"
+            placeholder="+X(XXX)XX-XX-XXX"
+          />
+          <label for="message">Comment <span>*</span></label>
+          <textarea
+            class="comment__item comment__text"
+            cols="50"
+            rows="10"
+            name="message"
+            id="message"
+          ></textarea>
+          <div class="row content-center">
+            <input class="row__item btn" type="submit" value="Submit" />
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

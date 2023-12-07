@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <script src="index.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="container">
+        <form name="form" onsubmit="checkWeather(); return false">
+          <input type="text" name="city" placeholder="City" />
+
+          <button type="submit" class="search">
+            <img src="search.png" width="10px" height="10px" />
+          </button>
+          <button class="reload" onclick="checkWeather()">
+            <img src="refresh.png" width="10px" height="10px" />
+          </button>
+        </form>
+
+        <h1 class="descriptions"></h1>
+        <div class="img"></div>
+        <p class="wind_speed"></p>
+        <p class="wind_direction"></p>
+        <p class="temp"></p>
+        <p class="feels_like"></p>
+        <p class="humidity"></p>
+      </div>
+    </main>
+  </body>
+</html>

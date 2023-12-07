@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Simple Calculator</h1>
+    </header>
+    <main>
+      <div class="calculator">
+        <form name="form" class="input-wrapper">
+          <input class="input" type="text" readonly name="inputText" />
+        </form>
+        <div class="buttons-wrapper">
+          <div class="button" onclick="enterDigit('1')">1</div>
+          <div class="button" onclick="enterDigit('2')">2</div>
+          <div class="button" onclick="enterDigit('3')">3</div>
+          <div class="button" onclick="back()">&larr;</div>
+          <div class="button" onclick="clearInput()">C</div>
+          <div class="button" onclick="enterDigit('4')">4</div>
+          <div class="button" onclick="enterDigit('5')">5</div>
+          <div class="button" onclick="enterDigit('6')">6</div>
+          <div class="button" onclick="plus()">+</div>
+          <div class="button" onclick="minus()">-</div>
+          <div class="button" onclick="enterDigit('7')">7</div>
+          <div class="button" onclick="enterDigit('8')">8</div>
+          <div class="button" onclick="enterDigit('9')">9</div>
+          <div class="button" onclick="multi()">*</div>
+          <div class="button" onclick="division()">/</div>
+          <div class="button" onclick="enterDigit('.')">.</div>
+          <div class="button" onclick="enterDigit('0')">0</div>
+          <div class="button" onclick="equal()">=</div>
+          <div class="button" onclick="degree()">^</div>
+          <div class="button" onclick="sqrt()">&radic;x</div>
+        </div>
+        <div class="history-wrapper">
+          <form name="formHistory">
+            <textarea class="history" name="inputHistory" readonly></textarea>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

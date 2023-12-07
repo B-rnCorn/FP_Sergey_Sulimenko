@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 90vw;
+}
+.container {
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+form {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.descriptions {
+  font-size: 18px;
+}
+.reload {
+  visibility: hidden;
+}
